@@ -7,7 +7,7 @@ public class Vehicle {
     private int currentDirection;
 
     public Vehicle(String name) {
-
+        this.name = name;
     }
 
     public void steer(int direction){
