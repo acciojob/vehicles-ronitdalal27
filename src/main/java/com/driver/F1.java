@@ -4,8 +4,7 @@ public class F1 extends Car {
 
     public F1(String name, boolean isManual) {
         //Use arbitrary values for parameters which are not mentioned
-        name = "BMW";
-        isManual = true;
+        super("BMW",2,2,2,true,"car",4);
     }
 
     public void accelerate(int rate){
@@ -36,7 +35,7 @@ public class F1 extends Car {
             gears = 5;
         else
             gears = 6;
-            
+
         //for all other cases, change the gear accordingly
 
         if(newSpeed > 0) {

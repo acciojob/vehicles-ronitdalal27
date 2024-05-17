@@ -6,7 +6,7 @@ public interface WaterVehicle {
 }
 
 
-class boat implements WaterVehicle{
+class Boat implements WaterVehicle{
     String name;
     int capacity;
 
